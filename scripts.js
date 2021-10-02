@@ -129,9 +129,9 @@ function addTip() {
   const percent = 15;
   tax = (totalAmount / 100) * percent;
   result = tax + totalAmount;
-  document.getElementById("tax").innerHTML = "Your tax is 15% = " + " $ " + tax;
+  document.getElementById("tax").innerHTML = "Your tax is 15% = " + " R " + tax;
   document.getElementById("results").innerHTML =
-    "Total amount " + " $ " + result;
+    "Total amount " + " R " + result;
 }
 
 /* Written by Ogundele Olalekan
